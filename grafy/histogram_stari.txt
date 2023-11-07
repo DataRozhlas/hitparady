@@ -1,0 +1,413 @@
+<script src="https://code.highcharts.com/highcharts.js"></script><style type="text/css">text{font-family:"Asap"!important}.paragraph{font-family:"Noticia text"!important}.href{color:#666;fill:#666}.highcharts-title{font-family:"Noticia text"!important;font-weight:700!important;text-align:left!important;left:10px!important}.highcharts-subtitle{text-align:left!important;font-size:.95rem!important;left:10px!important;font-family:"Asap"!important}.highcharts-data-labels text{font-size:.85rem!important}.highcharts-axis-labels text{font-size:.85rem!important}text.highcharts-plot-line-label{font-size:.85rem!important;fill:#666}text.highcharts-plot-band-label{font-size:.85rem!important;fill:#666}text.highcharts-credits{font-size:.75rem!important}.highcharts-tooltip span{font-family:"Asap"!important}.axis-label-on-tick{fill:#aaa;color:#aaa}.mock-empty-line{fill:#fff;color:#fff}</style>
+        <figure id="histogram_stari">
+        <div id="container"></div>
+        </figure>
+        <script>document.addEventListener('DOMContentLoaded', function() {
+Highcharts.chart('histogram_stari',
+{
+  colors: ['#fd7f6f',
+'#7eb0d5'],
+  credits: {
+  enabled: true,
+  href: 'https://www.irozhlas.cz/zpravy-tag/datova-zurnalistika',
+  text: 'Zdroj dat: Èeská národní skupina Mezinárodní federace hudebního prùmyslu a Wikidata | Vizualizace: Michal Kašpárek, iROZHLAS.cz'
+},
+  plotOptions: {
+  column: {
+  borderWidth: 0,
+  groupPadding: 0,
+  pointPadding: 0,
+  shadow: false,
+  type: 'column'
+}
+},
+  series: [{
+  data: [{
+  y: 53.0
+},
+{
+  y: 58.0
+},
+{
+  y: 198.0
+},
+{
+  y: 466.0
+},
+{
+  y: 379.0
+},
+{
+  y: 519.0
+},
+{
+  y: 598.0
+},
+{
+  y: 806.0
+},
+{
+  y: 1376.0
+},
+{
+  y: 1497.0
+},
+{
+  y: 1277.0
+},
+{
+  y: 1259.0
+},
+{
+  y: 1415.0
+},
+{
+  y: 1203.0
+},
+{
+  y: 893.0
+},
+{
+  y: 1012.0
+},
+{
+  y: 503.0
+},
+{
+  y: 644.0
+},
+{
+  y: 629.0
+},
+{
+  y: 664.0
+},
+{
+  y: 320.0
+},
+{
+  y: 165.0
+},
+{
+  y: 303.0
+},
+{
+  y: 377.0
+},
+{
+  y: 254.0
+},
+{
+  y: 212.0
+},
+{
+  y: 126.0
+},
+{
+  y: 299.0
+},
+{
+  y: 151.0
+},
+{
+  y: 108.0
+},
+{
+  y: 102.0
+},
+{
+  y: 100.0
+},
+{
+  y: 99.0
+},
+{
+  y: 186.0
+},
+{
+  y: 108.0
+},
+{
+  y: 116.0
+},
+{
+  y: 76.0
+},
+{
+  y: 84.0
+},
+{
+  y: 36.0
+},
+{
+  y: 68.0
+},
+{
+  y: 46.0
+},
+{
+  y: 90.0
+},
+{
+  y: 87.0
+},
+{
+  y: 33.0
+},
+{
+  y: 3.0
+},
+{
+  y: 5.0
+},
+{
+  y: 0.0
+},
+{
+  y: 0.0
+},
+{
+  y: 0.0
+},
+{
+  y: 0.0
+},
+{
+  y: 2.0
+}],
+  name: 'vìky en',
+  yAxis: 0,
+  visible: true,
+  type: 'column'
+},
+{
+  data: [{
+  y: 0.0
+},
+{
+  y: 15.0
+},
+{
+  y: 61.0
+},
+{
+  y: 169.0
+},
+{
+  y: 247.0
+},
+{
+  y: 395.0
+},
+{
+  y: 529.0
+},
+{
+  y: 759.0
+},
+{
+  y: 1270.0
+},
+{
+  y: 1631.0
+},
+{
+  y: 1615.0
+},
+{
+  y: 1948.0
+},
+{
+  y: 1622.0
+},
+{
+  y: 1721.0
+},
+{
+  y: 1816.0
+},
+{
+  y: 1821.0
+},
+{
+  y: 1779.0
+},
+{
+  y: 2108.0
+},
+{
+  y: 1207.0
+},
+{
+  y: 1284.0
+},
+{
+  y: 1059.0
+},
+{
+  y: 1141.0
+},
+{
+  y: 1069.0
+},
+{
+  y: 901.0
+},
+{
+  y: 655.0
+},
+{
+  y: 626.0
+},
+{
+  y: 765.0
+},
+{
+  y: 691.0
+},
+{
+  y: 560.0
+},
+{
+  y: 422.0
+},
+{
+  y: 381.0
+},
+{
+  y: 279.0
+},
+{
+  y: 259.0
+},
+{
+  y: 222.0
+},
+{
+  y: 260.0
+},
+{
+  y: 202.0
+},
+{
+  y: 216.0
+},
+{
+  y: 212.0
+},
+{
+  y: 226.0
+},
+{
+  y: 118.0
+},
+{
+  y: 84.0
+},
+{
+  y: 82.0
+},
+{
+  y: 53.0
+},
+{
+  y: 54.0
+},
+{
+  y: 33.0
+},
+{
+  y: 58.0
+},
+{
+  y: 28.0
+},
+{
+  y: 89.0
+},
+{
+  y: 47.0
+},
+{
+  y: 20.0
+},
+{
+  y: 23.0
+}],
+  name: 'vìky muù',
+  yAxis: 0,
+  visible: true,
+  type: 'column'
+}],
+  subtitle: {
+  align: 'left',
+  text: 'Do souètù poèítáme kadou píseò a kadı tıden v hitparádì zvláš. Pro pøehlednost oøezáváme sporadicky osídlené okraje grafu, tedy interprety a interpretky pod 15 a nad 65 let.'
+},
+  title: {
+  align: 'left',
+  margin: 30,
+  text: 'Vìky sólovì vystupujících muù a en v tıdenních ebøíècích 100 nejhranìjších písní'
+},
+  xAxis: {
+  categories: ['15',
+'16',
+'17',
+'18',
+'19',
+'20',
+'21',
+'22',
+'23',
+'24',
+'25',
+'26',
+'27',
+'28',
+'29',
+'30',
+'31',
+'32',
+'33',
+'34',
+'35',
+'36',
+'37',
+'38',
+'39',
+'40',
+'41',
+'42',
+'43',
+'44',
+'45',
+'46',
+'47',
+'48',
+'49',
+'50',
+'51',
+'52',
+'53',
+'54',
+'55',
+'56',
+'57',
+'58',
+'59',
+'60',
+'61',
+'62',
+'63',
+'64',
+'65'],
+  min: 0
+},
+  yAxis: [{
+  reversed: false,
+  title: {
+  text: ` `
+}
+}]
+},
+);
+});</script>

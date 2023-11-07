@@ -1,0 +1,582 @@
+<script src="https://code.highcharts.com/highcharts.js"></script><style type="text/css">text{font-family:"Asap"!important}.paragraph{font-family:"Noticia text"!important}.href{color:#666;fill:#666}.highcharts-title{font-family:"Noticia text"!important;font-weight:700!important;text-align:left!important;left:10px!important}.highcharts-subtitle{text-align:left!important;font-size:.95rem!important;left:10px!important;font-family:"Asap"!important}.highcharts-data-labels text{font-size:.85rem!important}.highcharts-axis-labels text{font-size:.85rem!important}text.highcharts-plot-line-label{font-size:.85rem!important;fill:#666}text.highcharts-plot-band-label{font-size:.85rem!important;fill:#666}text.highcharts-credits{font-size:.75rem!important}.highcharts-tooltip span{font-family:"Asap"!important}.axis-label-on-tick{fill:#aaa;color:#aaa}.mock-empty-line{fill:#fff;color:#fff}</style>
+        <figure id="typicka_trajektorie">
+        <div id="container"></div>
+        </figure>
+        <script>document.addEventListener('DOMContentLoaded', function() {
+Highcharts.chart('typicka_trajektorie',
+{
+  colors: ['#b2e061',
+'#7eb0d5',
+'#fd7f6f',
+'#bd7ebe',
+'#ffb55a',
+'#ffee65',
+'#beb9db',
+'#fdcce5',
+'#8bd3c7'],
+  credits: {
+  enabled: true,
+  href: 'https://www.irozhlas.cz/zpravy-tag/datova-zurnalistika',
+  text: 'Zdroj dat: ifpicr.cz | Vizualizace: Michal Kašpárek, iROZHLAS.cz'
+},
+  series: [{
+  data: [{
+  y: 62.0
+},
+{
+  y: 54.0
+},
+{
+  y: 45.0
+},
+{
+  y: 39.0
+},
+{
+  y: 30.0
+},
+{
+  y: 20.0
+},
+{
+  y: 14.0
+},
+{
+  y: 11.0
+},
+{
+  y: 8.0
+},
+{
+  y: 6.0
+},
+{
+  y: 6.0
+},
+{
+  y: 4.0
+},
+{
+  y: 4.0
+},
+{
+  y: 4.0
+},
+{
+  y: 4.0
+},
+{
+  y: 5.0
+},
+{
+  y: 7.0
+},
+{
+  y: 9.0
+},
+{
+  y: 11.0
+},
+{
+  y: 14.0
+},
+{
+  y: 16.0
+},
+{
+  y: 18.0
+},
+{
+  y: 20.0
+},
+{
+  y: 23.0
+},
+{
+  y: 30.0
+},
+{
+  y: 33.0
+},
+{
+  y: 32.0
+},
+{
+  y: 38.0
+},
+{
+  y: 40.0
+},
+{
+  y: 45.0
+},
+{
+  y: 48.0
+},
+{
+  y: 48.0
+},
+{
+  y: 57.0
+},
+{
+  y: 59.0
+},
+{
+  y: 61.0
+},
+{
+  y: 60.0
+},
+{
+  y: 69.0
+},
+{
+  y: 76.0
+},
+{
+  y: 78.0
+},
+{
+  y: 81.0
+},
+{
+  y: 83.0
+},
+{
+  y: 88.0
+},
+{
+  y: 85.0
+},
+{
+  y: 94.0
+},
+{
+  y: 97.0
+},
+{
+  y: 96.0
+},
+{
+  y: 95.0
+},
+{
+  y: 97.0
+},
+{
+  y: 94.0
+},
+{
+  y: 99.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+}],
+  name: 'Hity è. 1',
+  yAxis: 0,
+  visible: true,
+  type: 'line'
+},
+{
+  data: [{
+  y: 63.0
+},
+{
+  y: 57.0
+},
+{
+  y: 52.0
+},
+{
+  y: 44.0
+},
+{
+  y: 37.0
+},
+{
+  y: 29.0
+},
+{
+  y: 23.0
+},
+{
+  y: 19.0
+},
+{
+  y: 16.0
+},
+{
+  y: 14.0
+},
+{
+  y: 13.0
+},
+{
+  y: 13.0
+},
+{
+  y: 13.0
+},
+{
+  y: 14.0
+},
+{
+  y: 15.0
+},
+{
+  y: 17.0
+},
+{
+  y: 20.0
+},
+{
+  y: 25.0
+},
+{
+  y: 30.0
+},
+{
+  y: 35.0
+},
+{
+  y: 41.0
+},
+{
+  y: 46.0
+},
+{
+  y: 51.0
+},
+{
+  y: 57.0
+},
+{
+  y: 63.0
+},
+{
+  y: 71.0
+},
+{
+  y: 80.0
+},
+{
+  y: 87.0
+},
+{
+  y: 96.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+}],
+  name: 'Písnì z top 10',
+  yAxis: 0,
+  visible: true,
+  type: 'line'
+},
+{
+  data: [{
+  y: 71.0
+},
+{
+  y: 68.0
+},
+{
+  y: 67.0
+},
+{
+  y: 67.0
+},
+{
+  y: 65.0
+},
+{
+  y: 62.0
+},
+{
+  y: 61.0
+},
+{
+  y: 63.0
+},
+{
+  y: 66.0
+},
+{
+  y: 72.0
+},
+{
+  y: 79.0
+},
+{
+  y: 85.0
+},
+{
+  y: 94.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+},
+{
+  y: 101.0
+}],
+  name: 'Písnì z top 100',
+  yAxis: 0,
+  visible: true,
+  type: 'line'
+}],
+  subtitle: {
+  align: 'left',
+  text: 'Graf zobrazuje støední pozici vybrané kategorie podle týdnu od prvního proniknutí mezi 100 nejhranìjších písní v èeských rádiích.'
+},
+  title: {
+  align: 'left',
+  margin: 30,
+  text: 'Typická cesta písnì hitparádou'
+},
+  xAxis: {
+  categories: ['1',
+'2',
+'3',
+'4',
+'5',
+'6',
+'7',
+'8',
+'9',
+'10',
+'11',
+'12',
+'13',
+'14',
+'15',
+'16',
+'17',
+'18',
+'19',
+'20',
+'21',
+'22',
+'23',
+'24',
+'25',
+'26',
+'27',
+'28',
+'29',
+'30',
+'31',
+'32',
+'33',
+'34',
+'35',
+'36',
+'37',
+'38',
+'39',
+'40',
+'41',
+'42',
+'43',
+'44',
+'45',
+'46',
+'47',
+'48',
+'49',
+'50',
+'51',
+'52'],
+  min: 0
+},
+  yAxis: [{
+  max: 100,
+  min: 1,
+  reversed: true,
+  title: {
+  text: ` `
+}
+}]
+},
+);
+});</script>
