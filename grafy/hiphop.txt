@@ -1,0 +1,253 @@
+<script src="https://code.highcharts.com/highcharts.js"></script><style type="text/css">text{font-family:"Asap"!important}.paragraph{font-family:"Noticia text"!important}.href{color:#666;fill:#666}.highcharts-title{font-family:"Noticia text"!important;font-weight:700!important;text-align:left!important;left:10px!important}.highcharts-subtitle{text-align:left!important;font-size:.95rem!important;left:10px!important;font-family:"Asap"!important}.highcharts-data-labels text{font-size:.85rem!important}.highcharts-axis-labels text{font-size:.85rem!important}text.highcharts-plot-line-label{font-size:.85rem!important;fill:#666}text.highcharts-plot-band-label{font-size:.85rem!important;fill:#666}text.highcharts-credits{font-size:.75rem!important}.highcharts-tooltip span{font-family:"Asap"!important}.axis-label-on-tick{fill:#aaa;color:#aaa}.mock-empty-line{fill:#fff;color:#fff}</style>
+        <figure id="hiphop">
+        <div id="container"></div>
+        </figure>
+        <script>document.addEventListener('DOMContentLoaded', function() {
+Highcharts.chart('hiphop',
+{
+  colors: ['#b2e061',
+'#7eb0d5',
+'#fd7f6f',
+'#bd7ebe',
+'#ffb55a',
+'#ffee65',
+'#beb9db',
+'#fdcce5',
+'#8bd3c7'],
+  credits: {
+  enabled: true,
+  href: 'https://www.irozhlas.cz/zpravy-tag/datova-zurnalistika',
+  text: 'Zdroj dat: ifpicr.cz | Vizualizace: Michal Kašpárek, iROZHLAS.cz'
+},
+  series: [{
+  data: [{
+  y: 7.5
+},
+{
+  y: 4.1
+},
+{
+  y: 2.8
+},
+{
+  y: 6.9
+},
+{
+  y: 8.2
+},
+{
+  y: 7.3
+},
+{
+  y: 2.8
+},
+{
+  y: 3.5
+},
+{
+  y: 2.8
+},
+{
+  y: 2.7
+},
+{
+  y: 2.4
+},
+{
+  y: 2.2
+},
+{
+  y: 3.5
+},
+{
+  y: 3.0
+},
+{
+  y: 0.5
+},
+{
+  y: 3.2
+},
+{
+  y: 3.9
+},
+{
+  y: 6.1
+}],
+  name: 'TOP 100 ÈR - rádio',
+  yAxis: 0,
+  tooltip: {
+  valueSuffix: ' %'
+},
+  visible: true,
+  type: 'line'
+},
+{
+  data: [{
+  y: null
+},
+{
+  y: null
+},
+{
+  y: null
+},
+{
+  y: null
+},
+{
+  y: null
+},
+{
+  y: null
+},
+{
+  y: null
+},
+{
+  y: null
+},
+{
+  y: null
+},
+{
+  y: 5.5
+},
+{
+  y: 2.9
+},
+{
+  y: 11.8
+},
+{
+  y: 18.7
+},
+{
+  y: 27.4
+},
+{
+  y: 40.2
+},
+{
+  y: 33.5
+},
+{
+  y: 32.2
+},
+{
+  y: 31.6
+}],
+  name: 'TOP 100 ÈR - digital',
+  yAxis: 0,
+  tooltip: {
+  valueSuffix: ' %'
+},
+  visible: true,
+  type: 'line'
+},
+{
+  data: [{
+  y: 16.6
+},
+{
+  y: 10.5
+},
+{
+  y: 12.4
+},
+{
+  y: 10.7
+},
+{
+  y: 15.2
+},
+{
+  y: 13.5
+},
+{
+  y: 12.5
+},
+{
+  y: 17.3
+},
+{
+  y: 8.6
+},
+{
+  y: 14.1
+},
+{
+  y: 13.0
+},
+{
+  y: 25.1
+},
+{
+  y: 34.2
+},
+{
+  y: 25.4
+},
+{
+  y: 24.0
+},
+{
+  y: 16.4
+},
+{
+  y: null
+},
+{
+  y: null
+}],
+  name: 'TOP 100 Billboard',
+  yAxis: 0,
+  tooltip: {
+  valueSuffix: ' %'
+},
+  visible: true,
+  type: 'line'
+}],
+  subtitle: {
+  align: 'left',
+  text: 'Jak velký podíl na všech hitparádových pøíèkách mìli umìlci hrající primárnì rap, hip hop, trap atp.'
+},
+  title: {
+  align: 'left',
+  margin: 30,
+  text: 'Hip hop lidé streamují, v rádiu zní sváteènì'
+},
+  xAxis: {
+  categories: ['2006',
+'2007',
+'2008',
+'2009',
+'2010',
+'2011',
+'2012',
+'2013',
+'2014',
+'2015',
+'2016',
+'2017',
+'2018',
+'2019',
+'2020',
+'2021',
+'2022',
+'2023'],
+  min: 0
+},
+  yAxis: [{
+  labels: {
+  format: '{value} %'
+},
+  max: 100,
+  min: 0,
+  title: {
+  text: ` `
+}
+}]
+},
+);
+});</script>

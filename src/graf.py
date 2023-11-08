@@ -19,7 +19,8 @@ def graf(
     prvni=True,
     skladany=False,
     naopak=False,
-    vzhurunohama=False
+    vzhurunohama=False,
+	skrytnuly=False
 ):
     import os
     import pandas as pd
@@ -158,6 +159,9 @@ def graf(
     my_chart.options.credits = Credits(text=kredity[0], enabled=True, href=kredity[1])
 
     as_js_literal = my_chart.to_js_literal()
+    
+    if skrytnuly == True:
+        as_js_literal = as_js_literal.replace("y: 0.0","y: null")
 
     code = f"<html><head><title>{titulek}</title></head><body>{pred}{as_js_literal}</script></body></html>"
 
