@@ -1,9 +1,9 @@
 <script src="https://code.highcharts.com/highcharts.js"></script><style type="text/css">text{font-family:"Asap"!important}.paragraph{font-family:"Noticia text"!important}.href{color:#666;fill:#666}.highcharts-title{font-family:"Noticia text"!important;font-weight:700!important;text-align:left!important;left:10px!important}.highcharts-subtitle{text-align:left!important;font-size:.95rem!important;left:10px!important;font-family:"Asap"!important}.highcharts-data-labels text{font-size:.85rem!important}.highcharts-axis-labels text{font-size:.85rem!important}text.highcharts-plot-line-label{font-size:.85rem!important;fill:#666}text.highcharts-plot-band-label{font-size:.85rem!important;fill:#666}text.highcharts-credits{font-size:.75rem!important}.highcharts-tooltip span{font-family:"Asap"!important}.axis-label-on-tick{fill:#aaa;color:#aaa}.mock-empty-line{fill:#fff;color:#fff}</style>
-        <figure id="hiphop">
+        <figure id="vanoce_cro">
         <div id="container"></div>
         </figure>
         <script>document.addEventListener('DOMContentLoaded', function() {
-Highcharts.chart('hiphop',
+Highcharts.chart('vanoce_cro',
 {
   colors: ['#b2e061',
 '#7eb0d5',
@@ -17,73 +17,10 @@ Highcharts.chart('hiphop',
   credits: {
   enabled: true,
   href: 'https://www.irozhlas.cz/zpravy-tag/datova-zurnalistika',
-  text: 'Zdroj dat: ÈNS IFPI a Wikidata | Vizualizace: Michal Kašpárek, iROZHLAS.cz'
+  text: 'Zdroj dat: IFPI a Èeský rozhlas | Vizualizace: Michal Kašpárek, iROZHLAS.cz'
 },
   series: [{
   data: [{
-  y: 7.5
-},
-{
-  y: 4.1
-},
-{
-  y: 2.8
-},
-{
-  y: 6.9
-},
-{
-  y: 8.2
-},
-{
-  y: 7.3
-},
-{
-  y: 2.8
-},
-{
-  y: 3.5
-},
-{
-  y: 2.8
-},
-{
-  y: 2.7
-},
-{
-  y: 2.4
-},
-{
-  y: 2.2
-},
-{
-  y: 3.5
-},
-{
-  y: 3.0
-},
-{
-  y: 0.5
-},
-{
-  y: 3.2
-},
-{
-  y: 3.9
-},
-{
-  y: 6.1
-}],
-  name: 'TOP 100 ÈR - rádio',
-  yAxis: 0,
-  tooltip: {
-  valueSuffix: ' %'
-},
-  visible: true,
-  type: 'line'
-},
-{
-  data: [{
   y: null
 },
 {
@@ -93,106 +30,103 @@ Highcharts.chart('hiphop',
   y: null
 },
 {
-  y: null
+  y: 2.0
 },
 {
-  y: null
+  y: 7.0
 },
 {
-  y: null
+  y: 20.0
 },
 {
-  y: null
+  y: 9.0
 },
 {
-  y: null
+  y: 14.0
 },
 {
-  y: null
+  y: 14.0
 },
 {
-  y: 5.5
+  y: 10.0
 },
 {
-  y: 2.9
-},
-{
-  y: 11.8
-},
-{
-  y: 18.7
-},
-{
-  y: 27.4
-},
-{
-  y: 40.2
-},
-{
-  y: 33.5
-},
-{
-  y: 32.2
-},
-{
-  y: 31.6
-}],
-  name: 'TOP 100 ÈR - digital',
-  yAxis: 0,
-  tooltip: {
-  valueSuffix: ' %'
-},
-  visible: true,
-  type: 'line'
-},
-{
-  data: [{
-  y: 16.6
-},
-{
-  y: 10.5
-},
-{
-  y: 12.4
-},
-{
-  y: 10.7
-},
-{
-  y: 15.2
-},
-{
-  y: 13.5
-},
-{
-  y: 12.5
-},
-{
-  y: 17.3
-},
-{
-  y: 8.6
-},
-{
-  y: 14.1
-},
-{
-  y: 13.0
-},
-{
-  y: 25.1
-},
-{
-  y: 34.2
-},
-{
-  y: 25.4
+  y: 5.0
 },
 {
   y: 24.0
 },
 {
-  y: 16.4
+  y: 30.0
+},
+{
+  y: 29.0
+},
+{
+  y: 36.0
+},
+{
+  y: 24.0
+},
+{
+  y: 23.0
+},
+{
+  y: 16.0
+},
+{
+  y: 29.0
+},
+{
+  y: 49.0
+},
+{
+  y: 40.0
+},
+{
+  y: 41.0
+},
+{
+  y: 17.0
+},
+{
+  y: 11.0
+},
+{
+  y: 10.0
+},
+{
+  y: 15.0
+},
+{
+  y: 71.0
+},
+{
+  y: 62.0
+},
+{
+  y: 63.0
+},
+{
+  y: 59.0
+},
+{
+  y: 59.0
+},
+{
+  y: 58.0
+},
+{
+  y: 62.0
+},
+{
+  y: 1.0
+},
+{
+  y: null
+},
+{
+  y: 1.0
 },
 {
   y: null
@@ -200,50 +134,63 @@ Highcharts.chart('hiphop',
 {
   y: null
 }],
-  name: 'TOP 100 Billboard',
+  name: 'denní pøehrání',
   yAxis: 0,
-  tooltip: {
-  valueSuffix: ' %'
-},
   visible: true,
-  type: 'line'
+  type: 'column'
 }],
   subtitle: {
   align: 'left',
-  text: 'Podíl interpretù hrajících hiphop a rap na všech hitparádových pøíèkách.'
+  text: 'Denní poèty pøehrání 55 vánoèních skladeb, které od roku 2006 pronikly do týdenních žebøíèkù top 100 rádiových písní. Data z let 2021 a 2022.'
 },
   title: {
   align: 'left',
   margin: 30,
-  text: 'Hip hop lidé poslouchají online, v rádiu zní sváteènì'
+  text: 'Vánoèní hity ve vysílání Èeského rozhlasu'
 },
   xAxis: {
-  categories: ['2006',
-'2007',
-'2008',
-'2009',
-'2010',
-'2011',
-'2012',
-'2013',
-'2014',
-'2015',
-'2016',
-'2017',
-'2018',
-'2019',
-'2020',
-'2021',
-'2022',
-'2023'],
+  categories: ['11-24',
+'11-25',
+'11-26',
+'11-27',
+'11-28',
+'11-29',
+'11-30',
+'12-01',
+'12-02',
+'12-03',
+'12-04',
+'12-05',
+'12-06',
+'12-07',
+'12-08',
+'12-09',
+'12-10',
+'12-11',
+'12-12',
+'12-13',
+'12-14',
+'12-15',
+'12-16',
+'12-17',
+'12-18',
+'12-19',
+'12-20',
+'12-21',
+'12-22',
+'12-23',
+'12-24',
+'12-25',
+'12-26',
+'12-27',
+'12-28',
+'12-29',
+'12-30',
+'12-31'],
   min: 0
 },
   yAxis: [{
-  labels: {
-  format: '{value} %'
-},
-  max: 100,
-  min: 0,
+  reversed: false,
   title: {
   text: ` `
 }
