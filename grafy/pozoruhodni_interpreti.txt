@@ -54566,7 +54566,7 @@ Highcharts.chart('pozoruhodni_interpreti',
   title: {
   align: 'left',
   margin: 30,
-  text: 'Nejvyšší pozice nejúspìšnìjších interpretù'
+  text: 'Nejvyšší hitparádové pozice nejzastoupenìjších interpretù'
 },
   xAxis: {
   categories: ['2006-01',
