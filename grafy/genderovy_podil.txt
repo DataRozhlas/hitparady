@@ -63,7 +63,7 @@ Highcharts.chart('genderovy_podil',
   y: 1.2
 },
 {
-  y: 0.8
+  y: 0.9
 },
 {
   y: 0.5
@@ -123,10 +123,10 @@ Highcharts.chart('genderovy_podil',
   y: 69.6
 },
 {
-  y: 76.6
+  y: 76.7
 },
 {
-  y: 77.7
+  y: 77.6
 },
 {
   y: 75.9
@@ -138,10 +138,10 @@ Highcharts.chart('genderovy_podil',
   y: 71.2
 },
 {
-  y: 73.7
+  y: 73.9
 },
 {
-  y: 67.0
+  y: 66.9
 }],
   name: 'podíl mužù',
   yAxis: 0,
@@ -189,7 +189,7 @@ Highcharts.chart('genderovy_podil',
   y: 22.1
 },
 {
-  y: 21.5
+  y: 21.6
 },
 {
   y: 23.5
@@ -201,10 +201,10 @@ Highcharts.chart('genderovy_podil',
   y: 26.2
 },
 {
-  y: 24.7
+  y: 24.5
 },
 {
-  y: 29.2
+  y: 29.3
 }],
   name: 'podíl žen',
   yAxis: 0,

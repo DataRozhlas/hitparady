@@ -72,7 +72,7 @@ Highcharts.chart('hiphop',
   y: 3.9
 },
 {
-  y: 6.1
+  y: 6.0
 }],
   name: 'TOP 100 ÈR - rádio',
   yAxis: 0,
@@ -120,7 +120,7 @@ Highcharts.chart('hiphop',
   y: 11.8
 },
 {
-  y: 18.7
+  y: 18.6
 },
 {
   y: 27.4
@@ -135,7 +135,7 @@ Highcharts.chart('hiphop',
   y: 32.2
 },
 {
-  y: 31.6
+  y: 31.5
 }],
   name: 'TOP 100 ÈR - digital',
   yAxis: 0,
