@@ -1,0 +1,179 @@
+<script src="https://code.highcharts.com/highcharts.js"></script><style type="text/css">text{font-family:"Asap"!important}.paragraph{font-family:"Noticia text"!important}.href{color:#666;fill:#666}.highcharts-title{font-family:"Noticia text"!important;font-weight:700!important;text-align:left!important;left:10px!important}.highcharts-subtitle{text-align:left!important;font-size:.95rem!important;left:10px!important;font-family:"Asap"!important}.highcharts-data-labels text{font-size:.85rem!important}.highcharts-axis-labels text{font-size:.85rem!important}text.highcharts-plot-line-label{font-size:.85rem!important;fill:#666}text.highcharts-plot-band-label{font-size:.85rem!important;fill:#666}text.highcharts-credits{font-size:.75rem!important}.highcharts-tooltip span{font-family:"Asap"!important}.axis-label-on-tick{fill:#aaa;color:#aaa}.mock-empty-line{fill:#fff;color:#fff}</style>
+        <figure id="genderovy_podil_stream">
+        <div id="container"></div>
+        </figure>
+        <script>document.addEventListener('DOMContentLoaded', function() {
+Highcharts.chart('genderovy_podil_stream',
+{
+  colors: ['#b2e061',
+'#7eb0d5',
+'#fd7f6f',
+'#bd7ebe',
+'#ffb55a',
+'#ffee65',
+'#beb9db',
+'#fdcce5',
+'#8bd3c7'],
+  credits: {
+  enabled: true,
+  href: 'https://www.irozhlas.cz/zpravy-tag/datova-zurnalistika',
+  text: 'Zdroj dat: Èeská národní skupina Mezinárodní federace hudebního prùmyslu a Wikidata | Vizualizace: Michal Kašpárek, iROZHLAS.cz'
+},
+  plotOptions: {
+  column: {
+  stacking: 'normal',
+  type: 'column'
+}
+},
+  series: [{
+  data: [{
+  y: 4.4
+},
+{
+  y: 4.1
+},
+{
+  y: 0.7
+},
+{
+  y: 3.1
+},
+{
+  y: 1.2
+},
+{
+  y: 1.8
+},
+{
+  y: 0.9
+},
+{
+  y: 0.8
+},
+{
+  y: 0.7
+},
+{
+  y: 2.7
+}],
+  name: 'podíl genderfluid a nebinárních osob',
+  yAxis: 0,
+  tooltip: {
+  valueSuffix: ' %'
+},
+  visible: true,
+  type: 'column'
+},
+{
+  data: [{
+  y: 61.6
+},
+{
+  y: 68.8
+},
+{
+  y: 68.2
+},
+{
+  y: 76.8
+},
+{
+  y: 80.0
+},
+{
+  y: 73.6
+},
+{
+  y: 82.4
+},
+{
+  y: 81.4
+},
+{
+  y: 87.4
+},
+{
+  y: 84.9
+}],
+  name: 'podíl žen',
+  yAxis: 0,
+  tooltip: {
+  valueSuffix: ' %'
+},
+  visible: true,
+  type: 'column'
+},
+{
+  data: [{
+  y: 34.0
+},
+{
+  y: 27.0
+},
+{
+  y: 31.1
+},
+{
+  y: 20.1
+},
+{
+  y: 18.8
+},
+{
+  y: 24.6
+},
+{
+  y: 16.7
+},
+{
+  y: 17.8
+},
+{
+  y: 11.9
+},
+{
+  y: 12.4
+}],
+  name: 'podíl žen',
+  yAxis: 0,
+  tooltip: {
+  valueSuffix: ' %'
+},
+  visible: true,
+  type: 'column'
+}],
+  subtitle: {
+  align: 'left',
+  text: 'Z 755 lidí v datech se jinak než jako žena èi muž identifikují Miley Cyrus, Demi Lovato, Sam Smith a Lil Uzi Vert.'
+},
+  title: {
+  align: 'left',
+  margin: 30,
+  text: 'Podíl sólovì vystupujících žen a mužù v žebøíèku TOP 50 digitálních singlù'
+},
+  xAxis: {
+  categories: ['2014',
+'2015',
+'2016',
+'2017',
+'2018',
+'2019',
+'2020',
+'2021',
+'2022',
+'2023'],
+  min: 0
+},
+  yAxis: [{
+  labels: {
+  format: '{value} %'
+},
+  max: 100,
+  min: 0,
+  title: {
+  text: ` `
+}
+}]
+},
+);
+});</script>

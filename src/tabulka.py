@@ -7,6 +7,7 @@ def tabulka(
     na_procenta=[],
     poradi=False,
     bez_zavorek=True,
+    apostrofy=True
 ):
     import pandas as pd
 
@@ -15,8 +16,6 @@ def tabulka(
 
     df_tabulka = frame.copy()
 
-    sloupcu = len(df_tabulka.columns)
-    
     def cela(x):
         try:
             x = int(x)
@@ -36,6 +35,8 @@ def tabulka(
             nove_sloupce.append(s)
         df_tabulka = df_tabulka[nove_sloupce]
 
+    sloupcu = len(df_tabulka.columns)
+
     if len(bez_tecky) > 0:
         for b in bez_tecky:
             df_tabulka[b] = df_tabulka[b].apply(lambda x: cela(x))
@@ -48,7 +49,7 @@ def tabulka(
                 .astype("string")
                 .apply(lambda x: x.replace(".", ",").replace("%", " %"))
             )
-
+            
     df_tabulka = re.sub("\\n\s*", "", df_tabulka.to_html(index=False))
     df_tabulka = (
         df_tabulka.replace("<th>", '<th class="text-nowrap">')
@@ -61,6 +62,9 @@ def tabulka(
         .replace(" , ", ", ")
     )
 
+    if apostrofy == True:
+        df_tabulka = df_tabulka.replace("\'","’")
+    
     if len(titulek) > 0:
         df_tabulka = df_tabulka.replace(
             "<thead", f"<caption>{titulek}</caption><thead")

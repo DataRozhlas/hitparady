@@ -83,14 +83,14 @@ Highcharts.chart('vanoce_celorok',
 {
   y: 1
 }],
-  name: 'Hitparádové pøíèky obsazené od roku 2006 vánoèními písnìmi',
+  name: 'Pøíèky rádiových hitparád obsazené od roku 2006 vánoèními písnìmi',
   yAxis: 0,
   visible: true,
   type: 'column'
 }],
   subtitle: {
   align: 'left',
-  text: 'Do bøezna v hitparádì vydržely Biela krása od No Name (2013), Snìhulák od Michala Hrùzy (2015) a Lover od Taylor Swift (2020).'
+  text: 'Do bøezna v rádiové hitparádì vydržely Biela krása od No Name (2013), Snìhulák od Michala Hrùzy (2015) a Lover od Taylor Swift (2020).'
 },
   title: {
   align: 'left',
