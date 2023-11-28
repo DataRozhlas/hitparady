@@ -1252,6 +1252,18 @@ Highcharts.chart('pozoruhodne_pisne',
 },
 {
   y: 101
+},
+{
+  y: 101
+},
+{
+  y: 101
+},
+{
+  y: 101
+},
+{
+  y: 101
 }],
   name: 'Chinaski: Láska a data',
   yAxis: 0,
@@ -2491,6 +2503,18 @@ Highcharts.chart('pozoruhodne_pisne',
 },
 {
   y: 3
+},
+{
+  y: 3
+},
+{
+  y: 7
+},
+{
+  y: 6
+},
+{
+  y: 6
 }],
   name: 'Miley Cyrus: Flowers',
   yAxis: 0,
@@ -3730,6 +3754,18 @@ Highcharts.chart('pozoruhodne_pisne',
 },
 {
   y: 101
+},
+{
+  y: 101
+},
+{
+  y: 101
+},
+{
+  y: 101
+},
+{
+  y: 101
 }],
   name: 'Ewa Farna: Vánoce na míru',
   yAxis: 0,
@@ -4318,6 +4354,18 @@ Highcharts.chart('pozoruhodne_pisne',
 },
 {
   y: 67
+},
+{
+  y: 101
+},
+{
+  y: 101
+},
+{
+  y: 101
+},
+{
+  y: 101
 },
 {
   y: 101
@@ -6208,6 +6256,18 @@ Highcharts.chart('pozoruhodne_pisne',
 },
 {
   y: 101
+},
+{
+  y: 101
+},
+{
+  y: 101
+},
+{
+  y: 101
+},
+{
+  y: 101
 }],
   name: 'Karel Gott: Srdce nehasnou',
   yAxis: 0,
@@ -7120,6 +7180,18 @@ Highcharts.chart('pozoruhodne_pisne',
 },
 {
   y: 82
+},
+{
+  y: 101
+},
+{
+  y: 101
+},
+{
+  y: 101
+},
+{
+  y: 101
 },
 {
   y: 101
@@ -8686,6 +8758,18 @@ Highcharts.chart('pozoruhodne_pisne',
 },
 {
   y: 101
+},
+{
+  y: 101
+},
+{
+  y: 101
+},
+{
+  y: 101
+},
+{
+  y: 101
 }],
   name: 'Mandrage: Motýli',
   yAxis: 0,
@@ -9112,7 +9196,11 @@ Highcharts.chart('pozoruhodne_pisne',
 '2023-40',
 '2023-41',
 '2023-42',
-'2023-43'],
+'2023-43',
+'2023-44',
+'2023-45',
+'2023-46',
+'2023-47'],
   min: 0
 },
   yAxis: [{

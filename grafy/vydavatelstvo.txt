@@ -72,7 +72,7 @@ Highcharts.chart('vydavatelstvo',
   y: 39.0
 },
 {
-  y: 38.3
+  y: 39.0
 }],
   name: 'Universal Music',
   yAxis: 0,
@@ -135,7 +135,7 @@ Highcharts.chart('vydavatelstvo',
   y: 19.7
 },
 {
-  y: 15.7
+  y: 15.4
 }],
   name: 'Warner Music',
   yAxis: 0,
@@ -198,7 +198,7 @@ Highcharts.chart('vydavatelstvo',
   y: 18.4
 },
 {
-  y: 21.6
+  y: 21.5
 }],
   name: 'Sony Music',
   yAxis: 0,
@@ -261,7 +261,7 @@ Highcharts.chart('vydavatelstvo',
   y: 5.9
 },
 {
-  y: 6.1
+  y: 6.0
 }],
   name: 'Supraphon',
   yAxis: 0,
@@ -324,7 +324,7 @@ Highcharts.chart('vydavatelstvo',
   y: 3.7
 },
 {
-  y: 4.1
+  y: 4.3
 }],
   name: 'Brainzone',
   yAxis: 0,
@@ -387,7 +387,7 @@ Highcharts.chart('vydavatelstvo',
   y: 13.3
 },
 {
-  y: 14.1
+  y: 13.8
 }],
   name: 'ostatní',
   yAxis: 0,

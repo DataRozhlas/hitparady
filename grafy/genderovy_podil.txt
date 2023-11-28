@@ -36,7 +36,7 @@ Highcharts.chart('genderovy_podil',
   y: 0.4
 },
 {
-  y: 1.6
+  y: 1.5
 },
 {
   y: 0.8
@@ -54,7 +54,7 @@ Highcharts.chart('genderovy_podil',
   y: 4.2
 },
 {
-  y: 0.7
+  y: 0.8
 },
 {
   y: 0.4
@@ -63,7 +63,7 @@ Highcharts.chart('genderovy_podil',
   y: 1.2
 },
 {
-  y: 0.9
+  y: 0.8
 },
 {
   y: 0.5
@@ -90,58 +90,58 @@ Highcharts.chart('genderovy_podil',
 },
 {
   data: [{
-  y: 50.9
+  y: 50.7
 },
 {
-  y: 49.2
+  y: 50.4
 },
 {
-  y: 46.6
+  y: 49.0
 },
 {
   y: 43.4
 },
 {
-  y: 47.9
+  y: 46.6
 },
 {
-  y: 53.8
+  y: 52.3
 },
 {
-  y: 58.0
+  y: 57.3
 },
 {
-  y: 59.4
+  y: 59.0
 },
 {
-  y: 64.3
+  y: 64.4
 },
 {
-  y: 69.9
+  y: 70.3
 },
 {
-  y: 69.6
+  y: 69.7
 },
 {
-  y: 76.7
+  y: 76.8
 },
 {
-  y: 77.6
+  y: 78.2
 },
 {
-  y: 75.9
+  y: 76.0
 },
 {
-  y: 71.8
+  y: 71.9
 },
 {
-  y: 71.2
+  y: 70.9
 },
 {
-  y: 73.9
+  y: 74.0
 },
 {
-  y: 66.9
+  y: 67.2
 }],
   name: 'podíl mužù',
   yAxis: 0,
@@ -153,58 +153,58 @@ Highcharts.chart('genderovy_podil',
 },
 {
   data: [{
-  y: 49.1
+  y: 49.3
 },
 {
-  y: 50.8
+  y: 49.6
 },
 {
-  y: 53.1
+  y: 50.7
 },
 {
-  y: 55.0
+  y: 55.1
 },
 {
-  y: 51.3
+  y: 52.6
 },
 {
-  y: 46.2
+  y: 47.7
 },
 {
-  y: 42.0
+  y: 42.7
 },
 {
-  y: 38.8
+  y: 39.2
 },
 {
-  y: 31.6
+  y: 31.4
 },
 {
-  y: 29.3
+  y: 29.0
 },
 {
-  y: 30.0
+  y: 29.9
 },
 {
-  y: 22.1
+  y: 22.0
 },
 {
-  y: 21.6
+  y: 20.9
 },
 {
   y: 23.5
 },
 {
-  y: 27.1
+  y: 27.0
 },
 {
-  y: 26.2
+  y: 26.5
 },
 {
-  y: 24.5
+  y: 24.4
 },
 {
-  y: 29.3
+  y: 29.1
 }],
   name: 'podíl žen',
   yAxis: 0,
@@ -216,7 +216,7 @@ Highcharts.chart('genderovy_podil',
 }],
   subtitle: {
   align: 'left',
-  text: 'Z 755 lidí v datech se jinak než jako žena èi muž identifikují Miley Cyrus, Demi Lovato, Sam Smith a Lil Uzi Vert.'
+  text: 'Z 947 lidí v datech se jinak než jako žena èi muž identifikují Miley Cyrus (Ashley O), Demi Lovato, Sam Smith, Ashnikko, Kim Dracula, King Princess a Lil Uzi Vert'
 },
   title: {
   align: 'left',
