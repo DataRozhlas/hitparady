@@ -1,0 +1,94 @@
+<script src="https://code.highcharts.com/highcharts.js"></script><style type="text/css">text{font-family:"Asap"!important}.paragraph{font-family:"Noticia text"!important}.href{color:#666;fill:#666}.highcharts-title{font-family:"Noticia text"!important;font-weight:700!important;text-align:left!important;left:10px!important}.highcharts-subtitle{text-align:left!important;font-size:.95rem!important;left:10px!important;font-family:"Asap"!important}.highcharts-data-labels text{font-size:.85rem!important}.highcharts-axis-labels text{font-size:.85rem!important}text.highcharts-plot-line-label{font-size:.85rem!important;fill:#666}text.highcharts-plot-band-label{font-size:.85rem!important;fill:#666}text.highcharts-credits{font-size:.75rem!important}.highcharts-tooltip span{font-family:"Asap"!important}.axis-label-on-tick{fill:#aaa;color:#aaa}.mock-empty-line{fill:#fff;color:#fff}</style>
+        <figure id="top10">
+        <div id="container"></div>
+        </figure>
+        <script>document.addEventListener('DOMContentLoaded', function() {
+Highcharts.chart('top10',
+{
+  colors: ['#fd7f6f',
+'#7eb0d5',
+'#beb9db'],
+  credits: {
+  enabled: true,
+  href: 'https://www.irozhlas.cz/zpravy-tag/datova-zurnalistika',
+  text: 'Zdroj dat: ifpicr.cz | Vizualizace: Michal Kašpárek, iROZHLAS.cz'
+},
+  series: [{
+  data: [[1473],
+[1276],
+[1195],
+[1117],
+[1091],
+[1017],
+[881],
+[818],
+[759],
+[759]],
+  name: 'Týdnopísnièek v TOP 100',
+  yAxis: 0,
+  visible: true,
+  type: 'bar'
+},
+{
+  data: [[812],
+[786],
+[423],
+[655],
+[692],
+[525],
+[581],
+[389],
+[414],
+[428]],
+  name: 'Týdnù v TOP 100',
+  yAxis: 0,
+  visible: true,
+  type: 'bar'
+},
+{
+  data: [[56.0],
+[39.0],
+[30.0],
+[24.0],
+[13.0],
+[3.0],
+[23.0],
+[8.0],
+[10.0],
+[0.0]],
+  name: 'Týdnù na vrcholu hitparády',
+  yAxis: 0,
+  visible: true,
+  type: 'bar'
+}],
+  subtitle: {
+  align: 'left',
+  text: 'Týdnopísnièkou oznaèujeme každou píseò v jednotlivých týdenních TOP 100. Napøíklad kapela Mirai hned v nìkolika týdnech mezi lety 2019 a 2022 bodovala v hitparádì s rekordními 6 písnìmi. Èím víc týdnopísní, tím nepøeslechnutelnìjší interpret je.'
+},
+  title: {
+  align: 'left',
+  margin: 30,
+  text: 'Koho po roce 2006 nešlo pøeslechnout'
+},
+  xAxis: {
+  categories: ['Kryštof',
+'Chinaski',
+'Mirai',
+'P!Nk',
+'David Guetta',
+'Marek Ztracený',
+'Xindl X',
+'Lady Gaga',
+'Rihanna',
+'Slza'],
+  min: 0
+},
+  yAxis: [{
+  reversed: false,
+  title: {
+  text: ` `
+}
+}]
+},
+);
+});</script>
