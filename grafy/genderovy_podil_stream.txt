@@ -17,7 +17,7 @@ Highcharts.chart('genderovy_podil_stream',
   credits: {
   enabled: true,
   href: 'https://www.irozhlas.cz/zpravy-tag/datova-zurnalistika',
-  text: 'Zdroj dat: Èeská národní skupina Mezinárodní federace hudebního prùmyslu a Wikidata | Vizualizace: Michal Kašpárek, iROZHLAS.cz'
+  text: 'Zdroj dat: ÈNS IFPI a Wikidata | Vizualizace: Michal Kašpárek, iROZHLAS.cz'
 },
   plotOptions: {
   column: {
@@ -26,36 +26,16 @@ Highcharts.chart('genderovy_podil_stream',
 }
 },
   series: [{
-  data: [{
-  y: 4.2
-},
-{
-  y: 3.9
-},
-{
-  y: 0.6
-},
-{
-  y: 2.9
-},
-{
-  y: 1.4
-},
-{
-  y: 1.8
-},
-{
-  y: 0.9
-},
-{
-  y: 0.9
-},
-{
-  y: 0.6
-},
-{
-  y: 2.4
-}],
+  data: [[4.3],
+[3.9],
+[0.6],
+[2.9],
+[1.4],
+[1.8],
+[0.9],
+[0.9],
+[0.6],
+[2.4]],
   name: 'podíl genderfluid a nebinárních osob',
   yAxis: 0,
   tooltip: {
@@ -65,36 +45,16 @@ Highcharts.chart('genderovy_podil_stream',
   type: 'column'
 },
 {
-  data: [{
-  y: 61.7
-},
-{
-  y: 70.6
-},
-{
-  y: 68.1
-},
-{
-  y: 76.3
-},
-{
-  y: 80.4
-},
-{
-  y: 74.2
-},
-{
-  y: 82.8
-},
-{
-  y: 81.9
-},
-{
-  y: 86.2
-},
-{
-  y: 83.5
-}],
+  data: [[61.4],
+[70.6],
+[68.1],
+[76.3],
+[80.2],
+[74.1],
+[82.8],
+[81.9],
+[86.2],
+[83.7]],
   name: 'podíl mužù',
   yAxis: 0,
   tooltip: {
@@ -104,36 +64,16 @@ Highcharts.chart('genderovy_podil_stream',
   type: 'column'
 },
 {
-  data: [{
-  y: 34.1
-},
-{
-  y: 25.5
-},
-{
-  y: 31.3
-},
-{
-  y: 20.7
-},
-{
-  y: 18.2
-},
-{
-  y: 24.0
-},
-{
-  y: 16.3
-},
-{
-  y: 17.2
-},
-{
-  y: 13.1
-},
-{
-  y: 14.1
-}],
+  data: [[34.3],
+[25.5],
+[31.3],
+[20.7],
+[18.3],
+[24.1],
+[16.3],
+[17.2],
+[13.1],
+[13.9]],
   name: 'podíl žen',
   yAxis: 0,
   tooltip: {
@@ -144,12 +84,12 @@ Highcharts.chart('genderovy_podil_stream',
 }],
   subtitle: {
   align: 'left',
-  text: 'Z 947 lidí v datech se jinak než jako žena èi muž identifikují Miley Cyrus, Demi Lovato, Sam Smith a Lil Uzi Vert.'
+  text: 'Genderové podíly sólovì vystupujícího interpretstva v žebøíèku TOP 100 digitál.'
 },
   title: {
   align: 'left',
   margin: 30,
-  text: 'Podíl sólovì vystupujících žen a mužù v žebøíèku TOP 100 digitálních singlù'
+  text: 'Ženy prohrávají s muži i na streamu'
 },
   xAxis: {
   categories: ['2014',
