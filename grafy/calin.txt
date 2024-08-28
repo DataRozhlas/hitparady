@@ -635,12 +635,12 @@ Highcharts.chart('calin',
 }],
   subtitle: {
   align: 'left',
-  text: 'Do digitální hitparády pronikl poslední držitel Andìla pro Objev roku se 47 písnìmi. V rádiích se do TOP 100 dostaly tøi.'
+  text: 'Do digitální hitparády pronikl držitel Andìla pro Objev roku se 47 písnìmi. V rádiích se do TOP 100 dostaly tøi.'
 },
   title: {
   align: 'left',
   margin: 30,
-  text: 'Jak byl Calin vysoko na streamu a v rádiu'
+  text: 'Jak vysoko se dostal Calin na streamu a v rádiu'
 },
   xAxis: {
   categories: ['2018-01',

@@ -3252,7 +3252,7 @@ Highcharts.chart('pozoruhodni_interpreti_stream',
   min: 1,
   reversed: true,
   title: {
-  text: ` `
+  text: 'Nejlepší pozice'
 }
 }]
 },
