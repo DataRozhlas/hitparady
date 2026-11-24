@@ -3,3 +3,6 @@ data_raw
 .ipynb_checkpoints
 radiozurnal
 cro
+cro_raw.json
+__marimo__
+data/cro_raw.json
